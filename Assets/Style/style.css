@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    width: 100%;
+}
+
+/* NAV */
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.logoAlcancai {
+    width: 150px;
+    height: 150px;
+    margin-left: 150px;
+    margin-top: -200px;
+}
+
+.linksNav {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: -200px;
+}
+
+.linksNav a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.linear {
+    width: 30%;
+}
+
+/* HEAD */
+
+.head {
+    display: flex;
+    justify-content:center;
+    margin-top: -150px;
+    margin-left: -300px;
+    gap: 200px;
+}
+
+.frasePrincipal {
+    color: #181E4B;
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.paragrafoPrincipal{
+    color: #5E6282;
+    font-size: 25px;
+}
+
+.saberMais{
+    width: 250px;
+    height: 50px;
+    background-color: #7452FF;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    margin-top: 20px;
+}
+
+.sectionCarta{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 100px;
+}
+
+.versiculoRosa{
+    margin-top: 150px;
+    background-color: #FF4BA2;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 150px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    border-radius: 20px;
+}
+
+.instrucoes{
+    background-color: #7452FF;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 150px;
+    align-items: center;
+    font-family: 'Poller One', cursive;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    border-radius: 20px;
+}
+
+.apradrinhaCrianca{
+    background-color: #7452FF;
+    height: 60px;
+    width: 700px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: #414141;
+    height: 200px;
+}
+
+.criancas{
+    display: flex;
+}
+
+.bordaRoxa img{
+    height: 200px;
+}
+
+.bordaRoxa{
+     border: 2px solid #7452FF;
+     
+}
+
+.bordaRosa img{
+    height: 200px;
+}
