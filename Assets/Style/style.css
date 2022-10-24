@@ -51,11 +51,15 @@ nav {
     width: 30%;
 }
 
+button{
+    cursor: pointer;
+}
+
 /* HEAD */
 
 .head {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     margin-top: -150px;
     margin-left: -300px;
     gap: 200px;
@@ -63,17 +67,17 @@ nav {
 
 .frasePrincipal {
     color: #181E4B;
-    font-size: 80px;
+    font-size: 70px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
 
-.paragrafoPrincipal{
+.paragrafoPrincipal {
     color: #5E6282;
     font-size: 25px;
 }
 
-.saberMais{
+.saberMais {
     width: 250px;
     height: 50px;
     background-color: #7452FF;
@@ -83,7 +87,7 @@ nav {
     margin-top: 20px;
 }
 
-.sectionCarta{
+.sectionCarta {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -92,7 +96,7 @@ nav {
     gap: 100px;
 }
 
-.versiculoRosa{
+.versiculoRosa {
     margin-top: 150px;
     background-color: #FF4BA2;
     display: flex;
@@ -107,7 +111,7 @@ nav {
     border-radius: 20px;
 }
 
-.instrucoes{
+.instrucoes {
     background-color: #7452FF;
     display: flex;
     justify-content: center;
@@ -121,7 +125,20 @@ nav {
     border-radius: 20px;
 }
 
-.apradrinhaCrianca{
+.criancasDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 200px;
+}
+
+.criancas {
+    gap: 50px;
+    margin-top: -150px
+}
+
+.apradrinhaCrianca {
     background-color: #7452FF;
     height: 60px;
     width: 700px;
@@ -131,25 +148,496 @@ nav {
     font-weight: bold;
 }
 
-footer{
+footer {
     margin-top: 50px;
     background-color: #414141;
     height: 200px;
 }
 
-.criancas{
+.criancas {
     display: flex;
 }
 
-.bordaRoxa img{
+.bordaRoxa img {
     height: 200px;
 }
 
-.bordaRoxa{
-     border: 2px solid #7452FF;
-     
+.bordaRoxa {
+    border: 2px solid #7452FF;
+    padding: 30px 50px;
+    border-radius: 20px;
+
 }
 
-.bordaRosa img{
+.bordaRosa img {
     height: 200px;
+}
+
+.bordaRosa {
+    border: 2px solid #FF4BA2;
+    padding: 30px 50px;
+    border-radius: 20px;
+}
+
+.nome {
+    font-size: 30px;
+    color: #7452FF;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.nomeRosa {
+    font-size: 30px;
+    color: #FF4BA2;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.infoRoxo {
+    color: #7452FF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.infoRosa {
+    color: #FF4BA2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.butApadrinharRoxo {
+    background-color: #7452FF;
+    color: #FFF;
+    width: 230px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+.butApadrinharRosa {
+    background-color: #FF4BA2;
+    color: #FFF;
+    width: 230px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.instrucao {
+    background: #F5F5F5;
+    box-shadow: 10px 15px 19px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    height: 300px;
+    width: 300px;
+    padding: 20px 30px;
+}
+
+.divInstrucao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.passo {
+    color: #7452FF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.explicacao {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+/* RESPONSIVIDADE INDEX */
+
+@media screen and (min-width: 1200px) and (max-width: 1505px) {
+
+    .head {
+        display: flex;
+        justify-content: center;
+        margin-top: -150px;
+        margin-left: 0px;
+        gap: 100px;
+    }
+
+    .frasePrincipal {
+        color: #181E4B;
+        font-size: 50px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+
+    .versiculoRosa {
+        font-size: 28px;
+    }
+
+    .divInstrucao {
+        gap: 50px;
+    }
+
+    .linksNav a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1199px) {
+
+    .head {
+        display: flex;
+        justify-content: center;
+        margin-top: -150px;
+        margin-left: 0px;
+        gap: 100px;
+    }
+
+    .frasePrincipal {
+        color: #181E4B;
+        font-size: 50px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+
+    .versiculoRosa {
+        font-size: 28px;
+    }
+
+    .divInstrucao {
+        gap: 50px;
+    }
+
+    .linksNav a {
+        font-size: 20px;
+    }
+
+    .criancas{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .criancas{
+        flex-direction: column;
+    }
+    
+    .head {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        gap: 100px;
+    }
+
+    .frasePrincipal {
+        color: #181E4B;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin-top: 150px;
+    }
+
+    .saberMais {
+        width: 50%;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 15px;
+
+    }
+
+    .versiculoRosa {
+        font-size: 10px;
+        height: 50px;
+        margin-top: 50px;
+    }
+
+    .imgCarta img {
+        width: 80%;
+    }
+
+    .imgCarta {
+        display: flex;
+        justify-content: center;
+        margin-top: -60px;
+    }
+
+    .divInstrucao {
+        gap: 50px;
+    }
+
+    .instrucoes {
+        height: 50px;
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .divInstrucao {
+        flex-direction: column;
+    }
+
+    .linksNav {
+        display: none;
+    }
+
+    .linksNav a {
+        font-size: 0px;
+    }
+
+    .imgAtos {
+        display: none;
+    }
+
+    .logoAlcancai {
+        width: 100px;
+        height: 100px;
+        margin-top: 0px;
+    }
+
+    .paragrafoPrincipal {
+        color: #5E6282;
+        font-size: 15px;
+    }
+
+    .apradrinhaCrianca {
+        width: 80%;
+
+    }
+
+    .criancas{
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    
+    .criancasDiv{
+        gap: 0px;
+    }
+    
+    .criancas{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .bordaRoxa{
+        transform: scale(0.8);
+        margin-bottom: -100px;
+    }
+
+    .bordaRosa{
+    transform: scale(0.8);
+    margin-bottom: -100px;
+}
+    .head {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        gap: 100px;
+    }
+
+    .frasePrincipal {
+        color: #181E4B;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin-top: 200px;
+    }
+
+    .saberMais {
+        width: 50%;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 15px;
+
+    }
+
+    .versiculoRosa {
+        font-size: 8px;
+        height: 50px;
+        margin-top: 50px;
+    }
+
+    .imgCarta img {
+        width: 80%;
+    }
+
+    .imgCarta {
+        display: flex;
+        justify-content: center;
+        margin-top: -60px;
+    }
+
+    .divInstrucao {
+        gap: 50px;
+    }
+
+    .instrucoes {
+        height: 50px;
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .divInstrucao {
+        flex-direction: column;
+    }
+
+    .linksNav {
+        display: none;
+    }
+
+    .linksNav a {
+        font-size: 0px;
+    }
+
+    .imgAtos {
+        display: none;
+    }
+
+    .logoAlcancai {
+        width: 80px;
+        height: 80px;
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+
+    .paragrafoPrincipal {
+        color: #5E6282;
+        font-size: 15px;
+    }
+
+    .apradrinhaCrianca {
+        width: 80%;
+        font-size: 10px;
+    }
+
+    .instrucao{
+        width: 200px;
+        height: 200px;
+    }
+
+    .instrucao p{
+        font-size: 12px;
+    }
+
+    footer{
+        margin-top: 100px;
+    }
+
+    .passo{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 100px) and (max-width: 300px) {
+    .head {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        gap: 100px;
+    }
+
+    .frasePrincipal {
+        color: #181E4B;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin-top: 150px;
+    }
+
+
+    .saberMais {
+        width: 50%;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 15px;
+
+    }
+
+    .versiculoRosa {
+        font-size: 6px;
+        height: 50px;
+        margin-top: 50px;
+    }
+
+    .imgCarta img {
+        width: 80%;
+    }
+
+    .imgCarta {
+        display: flex;
+        justify-content: center;
+        margin-top: -60px;
+    }
+
+    .divInstrucao {
+        gap: 50px;
+    }
+
+    .instrucoes {
+        height: 50px;
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .divInstrucao {
+        flex-direction: column;
+    }
+
+    .linksNav {
+        display: none;
+    }
+
+    .linksNav a {
+        font-size: 0px;
+    }
+
+    .imgAtos {
+        display: none;
+    }
+
+    .logoAlcancai {
+        width: 80px;
+        height: 80px;
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+
+    .paragrafoPrincipal {
+        color: #5E6282;
+        font-size: 10px;
+    }
+
+    .apradrinhaCrianca {
+        width: 80%;
+        font-size: 10px;
+    }
+
+    .instrucao{
+        width: 100px;
+        height: 250px;
+    }
+
+    .instrucao p{
+        font-size: 8px;
+    }
+
+    
+
 }
